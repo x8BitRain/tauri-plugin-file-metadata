@@ -1,0 +1,7 @@
+node_modules
+bun.lock
+android/.tauri
+android/build
+dist-js
+.tauri
+.idea

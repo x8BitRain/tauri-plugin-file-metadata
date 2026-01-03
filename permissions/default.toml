@@ -1,0 +1,13 @@
+[default]
+description = """
+This permission set configures the default permissions for the file-metadata plugin.
+
+#### Granted Permissions
+
+It allows access to get file metadata from content URIs on mobile platforms.
+
+"""
+
+permissions = [
+  "allow-get-file-metadata",
+]

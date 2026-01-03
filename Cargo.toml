@@ -1,0 +1,18 @@
+[package]
+name = "tauri-plugin-file-metadata"
+version = "0.0.1"
+description = "Get file metadata from content URIs on mobile platforms"
+edition = "2021"
+authors = ["Pasta"]
+license = "MIT"
+links = "tauri-plugin-file-metadata"
+
+[package.metadata.docs.rs]
+rustc-args = [ "--cfg", "docsrs" ]
+rustdoc-args = [ "--cfg", "docsrs" ]
+
+[build-dependencies]
+tauri-plugin = { version = "2.0.0", features = [ "build" ] }
+
+[dependencies]
+tauri = "2.0.0"
